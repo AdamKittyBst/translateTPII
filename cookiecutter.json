@@ -1,0 +1,6 @@
+{
+    "project_name": "TranslationTPII",
+    "author_name": "Adam Hong",
+    "description": "A Python GUI app for translation. This application allows users to translate Chinese text to English or Indonesian. It supports multiple formats including PDF, Excel, and Word. The app prioritizes using a local vector database for translation, and if a matching translation is found, it will be retrieved from the local database. If no match is found, it will make a remote call to Google or OpenAI API and store the result locally for future use.",
+    "_copy_without_render": ["assets/*", "files/*"]
+}
